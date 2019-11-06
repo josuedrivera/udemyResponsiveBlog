@@ -1,0 +1,41 @@
+header {
+    text-align: center;
+    background: url("https://media.licdn.com/dms/image/C4E16AQGqRcPL7Ykx7g/profile-displaybackgroundimage-shrink_350_1400/0?e=1577318400&v=beta&t=9mUT1J7FP7axrR62ob0Y3tYGdagEsWRr_OzQVkcS9fc");
+    background-size: cover;
+    color: white;
+}
+
+ul {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+}
+
+img {
+    width: 150px;
+    margin-top: 40px;
+    border: 7px solid white;
+    border-radius: 20px;
+}
+
+a {
+    color: white;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 36px;
+    }
+    li {
+        display: block;
+        padding: 5px;
+    }
+}
